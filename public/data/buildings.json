@@ -1,0 +1,453 @@
+{
+  "성서:공": {
+    "code": "공",
+    "campus": "성서",
+    "name": "공학관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8592467093327,
+    "lng": 128.486897956122,
+    "address": "대구 달서구 달서대로 675"
+  },
+  "성서:국": {
+    "code": "국",
+    "campus": "성서",
+    "name": "동영관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.85323940536,
+    "lng": 128.4844346459,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "성서:영": {
+    "code": "영",
+    "campus": "성서",
+    "name": "영암관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8540831404741,
+    "lng": 128.484122722379,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "성서:봉": {
+    "code": "봉",
+    "campus": "성서",
+    "name": "봉경관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.855310687653,
+    "lng": 128.485713057104,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "성서:백": {
+    "code": "백",
+    "campus": "성서",
+    "name": "백은관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8537623130182,
+    "lng": 128.482372210523,
+    "address": "대구 달서구 달구벌대로 1053"
+  },
+  "성서:음": {
+    "code": "음",
+    "campus": "성서",
+    "name": "음악공연예술대학",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8528496303125,
+    "lng": 128.490586297765,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "성서:의": {
+    "code": "의",
+    "campus": "성서",
+    "name": "의양관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8562608053435,
+    "lng": 128.484960336499,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "성서:보": {
+    "code": "보",
+    "campus": "성서",
+    "name": "보산관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8547803908032,
+    "lng": 128.482245048491,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "성서:스": {
+    "code": "스",
+    "campus": "성서",
+    "name": "스미스관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8564752602983,
+    "lng": 128.483649251792,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "성서:오": {
+    "code": "오",
+    "campus": "성서",
+    "name": "오산관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.85799664586915,
+    "lng": 128.48887494576212,
+    "address": "대구 달서구 달서대로 675"
+  },
+  "성서:쉐": {
+    "code": "쉐",
+    "campus": "성서",
+    "name": "쉐턱관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8574252930261,
+    "lng": 128.48931258933,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "성서:첨": {
+    "code": "첨",
+    "campus": "성서",
+    "name": "첨단산업지원센터",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8530120643544,
+    "lng": 128.482411374811,
+    "address": "대구 달서구 달구벌대로 1053"
+  },
+  "성서:학군": {
+    "code": "학군",
+    "campus": "성서",
+    "name": "학군단",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8601844683278,
+    "lng": 128.482478515338,
+    "address": "대구 달서구 호산동 산 1"
+  },
+  "성서:채플": {
+    "code": "채플",
+    "campus": "성서",
+    "name": "아담스채플관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.85797309172112,
+    "lng": 128.48444320716985,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "성서:덕": {
+    "code": "덕",
+    "campus": "성서",
+    "name": "덕래관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8594753560373,
+    "lng": 128.4863354352718,
+    "address": "대구 달서구 달서대로 675"
+  },
+  "성서:체": {
+    "code": "체",
+    "campus": "성서",
+    "name": "체육관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8544618331751,
+    "lng": 128.489930175162,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "성서:대": {
+    "code": "대",
+    "campus": "성서",
+    "name": "동천관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8541617816794,
+    "lng": 128.488255293283,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "성서:M": {
+    "code": "M",
+    "campus": "성서",
+    "name": "의과대학",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.85507625315868,
+    "lng": 128.48054141853885,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "성서:N": {
+    "code": "N",
+    "campus": "성서",
+    "name": "전갑규관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false
+  },
+  "성서:바": {
+    "code": "바",
+    "campus": "성서",
+    "name": "바우어관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8542385400052,
+    "lng": 128.486131399031,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "대명:감": {
+    "code": "감",
+    "campus": "대명",
+    "name": "감부열관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8551616868713,
+    "lng": 128.579606008324,
+    "address": "대구 남구 명덕로20길 50"
+  },
+  "대명:아": {
+    "code": "아",
+    "campus": "대명",
+    "name": "아담스관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.85603843859628,
+    "lng": 128.58009053834036,
+    "address": "대구 남구 명덕로 104"
+  },
+  "대명:윌": {
+    "code": "윌",
+    "campus": "대명",
+    "name": "윌슨관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.855602787129,
+    "lng": 128.579504065792,
+    "address": "대구 남구 명덕로 104"
+  },
+  "대명:대쉐": {
+    "code": "대쉐",
+    "campus": "대명",
+    "name": "대명쉐턱관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.855313662078,
+    "lng": 128.580383883108,
+    "address": "대구 남구 명덕로 104"
+  },
+  "대명:대의": {
+    "code": "대의",
+    "campus": "대명",
+    "name": "대명의양관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.854353019454,
+    "lng": 128.57942613822,
+    "address": "대구 남구 명덕로20길 70"
+  },
+  "대명:수": {
+    "code": "수",
+    "campus": "대명",
+    "name": "대명 수산관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8533651001228,
+    "lng": 128.579171873979,
+    "address": "대구 남구 명덕로20길 94"
+  },
+  "대명:비": {
+    "code": "비",
+    "campus": "대명",
+    "name": "대명 비사관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8526401048165,
+    "lng": 128.580304247742,
+    "address": "대구 남구 명덕로 104"
+  },
+  "대명:문": {
+    "code": "문",
+    "campus": "대명",
+    "name": "대명 동서문화관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.853968419465126,
+    "lng": 128.5792746084042,
+    "address": "대구 남구 명덕로 104"
+  },
+  "대명:동": {
+    "code": "동",
+    "campus": "대명",
+    "name": "대명동산관",
+    "needsReview": false,
+    "facility": false,
+    "excluded": false,
+    "lat": 35.8545539097887,
+    "lng": 128.581143653348,
+    "address": "대구 남구 명덕로 104"
+  },
+  "성서:명": {
+    "code": "명",
+    "campus": "성서",
+    "name": null,
+    "needsReview": true,
+    "facility": false,
+    "excluded": false
+  },
+  "성서:명교협력": {
+    "code": "명교협력",
+    "campus": "성서",
+    "name": null,
+    "needsReview": true,
+    "facility": false,
+    "excluded": false
+  },
+  "성서:수": {
+    "code": "수",
+    "campus": "성서",
+    "name": null,
+    "needsReview": true,
+    "facility": false,
+    "excluded": false
+  },
+  "성서:태": {
+    "code": "태",
+    "campus": "성서",
+    "name": null,
+    "needsReview": true,
+    "facility": false,
+    "excluded": false
+  },
+  "대명:구본": {
+    "code": "구본",
+    "campus": "대명",
+    "name": null,
+    "needsReview": true,
+    "facility": false,
+    "excluded": false
+  },
+  "성서:골프장": {
+    "code": "골프장",
+    "campus": "성서",
+    "name": "골프연습장",
+    "needsReview": false,
+    "facility": true,
+    "excluded": false,
+    "lat": 35.8496135589736,
+    "lng": 128.485566907915,
+    "address": "대구 달서구 달서대로109안길 45"
+  },
+  "성서:멀티짐": {
+    "code": "멀티짐",
+    "campus": "성서",
+    "name": "멀티짐",
+    "needsReview": false,
+    "facility": true,
+    "excluded": false
+  },
+  "성서:볼링장": {
+    "code": "볼링장",
+    "campus": "성서",
+    "name": "볼링장",
+    "needsReview": false,
+    "facility": true,
+    "excluded": false,
+    "lat": 35.8550763596994,
+    "lng": 128.503388932874,
+    "address": "대구 달서구 계대동문로 102"
+  },
+  "성서:수영장": {
+    "code": "수영장",
+    "campus": "성서",
+    "name": "수영장",
+    "needsReview": false,
+    "facility": true,
+    "excluded": false,
+    "lat": 35.8522864940182,
+    "lng": 128.479132463677,
+    "address": "대구 달서구 호산동 349"
+  },
+  "성서:테니스장": {
+    "code": "테니스장",
+    "campus": "성서",
+    "name": "테니스장",
+    "needsReview": false,
+    "facility": true,
+    "excluded": false,
+    "lat": 35.858472093318,
+    "lng": 128.488322588708,
+    "address": "대구 달서구 달서대로 675"
+  },
+  "성서:체조장": {
+    "code": "체조장",
+    "campus": "성서",
+    "name": "체조장",
+    "needsReview": false,
+    "facility": true,
+    "excluded": false
+  },
+  "성서:주경기장": {
+    "code": "주경기장",
+    "campus": "성서",
+    "name": "대운동장",
+    "needsReview": false,
+    "facility": true,
+    "excluded": false,
+    "lat": 35.85282649344,
+    "lng": 128.488673103075,
+    "address": "대구 달서구 달구벌대로 1095"
+  },
+  "성서:미지정": {
+    "code": "미지정",
+    "campus": "성서",
+    "name": null,
+    "needsReview": false,
+    "facility": false,
+    "excluded": true
+  },
+  "성서:외부공간": {
+    "code": "외부공간",
+    "campus": "성서",
+    "name": null,
+    "needsReview": false,
+    "facility": false,
+    "excluded": true
+  },
+  "기타:외부공간": {
+    "code": "외부공간",
+    "campus": "기타",
+    "name": null,
+    "needsReview": false,
+    "facility": false,
+    "excluded": true
+  }
+}
