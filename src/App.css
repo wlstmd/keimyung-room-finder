@@ -324,7 +324,7 @@ input[type="range"] {
     min-height: 0;
   }
   .map-wrap {
-    flex: 0 0 40%;
+    flex: 0 0 60%;
   }
   .side-panel {
     width: 100%;
