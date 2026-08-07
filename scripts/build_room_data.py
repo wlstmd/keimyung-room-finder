@@ -58,20 +58,29 @@ def parse_times(raw: str) -> list[dict]:
     raw = (raw or "").strip()
     if not raw or "원격수업" in raw:
         return []
-    slots = []
-    for day, sh, sm, eh, em, room in SLOT_RE.findall(raw):
-        room = room.strip()
-        if not room:
-            continue
-        slots.append(
-            {
-                "day": day,
-                "startMin": int(sh) * 60 + int(sm),
-                "endMin": int(eh) * 60 + int(em),
-                "room": room,
-            }
-        )
-    return slots
+    matches = SLOT_RE.findall(raw)
+    slots = [
+        {
+            "day": day,
+            "startMin": int(sh) * 60 + int(sm),
+            "endMin": int(eh) * 60 + int(em),
+            "room": room.strip(),
+        }
+        for day, sh, sm, eh, em, room in matches
+    ]
+    # EDWARD는 같은 강의실을 쓰는 연속 슬롯이면 강의실 표기를 마지막 슬롯 뒤에 한 번만 적는다.
+    # 예: "월10:30~11:45 목13:30~14:45(의B06)" -> 월요일 슬롯엔 강의실 표기가 없지만 같은 강의실.
+    # 뒤에서부터 훑으며 비어있는 슬롯을 바로 다음(시간순으로 뒤) 슬롯의 강의실로 채운다.
+    next_room = ""
+    for slot in reversed(slots):
+        if slot["room"]:
+            next_room = slot["room"]
+        else:
+            slot["room"] = next_room
+    return [s for s in slots if s["room"]]
+
+
+DATE_PREFIX_RE = re.compile(r"^(\d{8})_")
 
 
 def find_input_files() -> list[str]:
@@ -82,12 +91,30 @@ def find_input_files() -> list[str]:
     seen = set()
     files = []
     for f in candidates:
+        base = os.path.basename(f)
+        if base.startswith("~$") or base.startswith("."):
+            continue  # Office/Numbers가 파일 열람 중 만드는 잠금용 임시 파일
         rp = os.path.realpath(f)
         if rp in seen:
             continue
         seen.add(rp)
-        if marker in unicodedata.normalize("NFC", os.path.basename(f)):
+        if marker in unicodedata.normalize("NFC", base):
             files.append(f)
+
+    # 파일명 앞의 YYYYMMDD 중 가장 최신 날짜만 사용 (예: 20260716 구버전이 남아있어도 무시)
+    dated_files = {f for f in files if DATE_PREFIX_RE.match(os.path.basename(f))}
+    dated = [(DATE_PREFIX_RE.match(os.path.basename(f)).group(1), f) for f in dated_files]
+    if dated:
+        latest = max(d for d, _ in dated)
+        stale = [f for d, f in dated if d != latest]
+        non_dated = [f for f in files if f not in dated_files]
+        files = [f for d, f in dated if d == latest] + non_dated
+        if stale:
+            print(
+                f"오래된 날짜의 강의 파일 {len(stale)}개는 건너뛰어요 (최신: {latest}): "
+                + ", ".join(os.path.basename(f) for f in stale),
+                file=sys.stderr,
+            )
     return sorted(files)
 
 

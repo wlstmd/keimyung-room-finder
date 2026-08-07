@@ -5,6 +5,20 @@
   min-height: 0;
 }
 
+.app-footer {
+  flex-shrink: 0;
+  padding: 10px 24px;
+  text-align: center;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+}
+
+.app-footer p {
+  margin: 0;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
 .app-header {
   display: flex;
   align-items: center;
@@ -307,15 +321,17 @@ input[type="range"] {
 @media (max-width: 720px) {
   .app-body {
     flex-direction: column;
+    min-height: 0;
   }
   .map-wrap {
-    height: 45vh;
+    flex: 0 0 40%;
   }
   .side-panel {
     width: 100%;
+    flex: 1;
+    min-height: 0;
     border-left: none;
     border-top: 1px solid var(--border);
-    max-height: 55vh;
   }
 }
 

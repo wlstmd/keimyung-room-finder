@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import KakaoMap, { type MapMarkerData } from "./components/KakaoMap";
 import ControlPanel from "./components/ControlPanel";
 import BuildingRoomList from "./components/BuildingRoomList";
+import Footer from "./components/Footer";
 import { useRooms } from "./hooks/useRooms";
 import { useBuildings } from "./hooks/useBuildings";
 import type { Day } from "./types";
@@ -99,6 +100,7 @@ export default function App() {
           </div>
         </main>
       )}
+      <Footer />
     </div>
   );
 }
