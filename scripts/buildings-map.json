@@ -19,7 +19,7 @@
   "성서:체": { "name": "체육관", "needsReview": false },
   "성서:대": { "name": "동천관", "needsReview": false },
   "성서:M": { "name": "의과대학", "needsReview": false },
-  "성서:N": { "name": "전갑규관", "needsReview": false },
+  "성서:N": { "name": "간호대학", "needsReview": false },
   "성서:바": { "name": "바우어관", "needsReview": false },
 
   "대명:감": { "name": "감부열관", "needsReview": false },

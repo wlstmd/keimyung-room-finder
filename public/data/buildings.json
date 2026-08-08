@@ -200,10 +200,13 @@
   "성서:N": {
     "code": "N",
     "campus": "성서",
-    "name": "전갑규관",
+    "name": "간호대학",
     "needsReview": false,
     "facility": false,
-    "excluded": false
+    "excluded": false,
+    "lat": 35.8553203942077,
+    "lng": 128.47937701059,
+    "address": "대구 달서구 달구벌대로 1095"
   },
   "성서:바": {
     "code": "바",

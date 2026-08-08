@@ -18,4 +18,4 @@
 
 ---
 
-Copyright © Jinseung Yu. Tabula Rasa College
+Copyright © 계명대 빈 강의실 찾기. 문의: jinseung0327@gmail.com
