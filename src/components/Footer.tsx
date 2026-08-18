@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const CONTACT_EMAIL = "jinseung0327@gmail.com";
+const CONTACT_EMAIL = "wlstmd@wlstmd.cloud";
 
 type ModalKind = "privacy" | "terms" | null;
 
