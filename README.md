@@ -18,4 +18,4 @@
 
 ---
 
-Copyright © 계명대 빈 강의실 찾기. 문의: jinseung0327@gmail.com
+Copyright © 계명대 빈 강의실 찾기. 문의: wlstmd@wlstmd.cloud
