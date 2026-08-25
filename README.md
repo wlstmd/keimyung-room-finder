@@ -49,7 +49,7 @@
 
 ## 📸 에타 핫 게시글
 
-<img width="612" height="360" alt="계명대 빈 강의실 찾기 에타 게시글" src="https://github.com/user-attachments/assets/4ca3939d-a51d-43fc-93d3-efd0bd62d052" />
+<img width="610" height="363" alt="Image" src="https://github.com/user-attachments/assets/d5adf40a-4a85-41aa-9fc9-ecadec3c8a1d" />
 
 ---
 
