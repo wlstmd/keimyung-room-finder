@@ -1,0 +1,8 @@
+.git
+node_modules
+dist
+coverage
+.env*
+__pycache__
+*.py[cod]
+npm-debug.log*
