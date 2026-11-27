@@ -3,10 +3,14 @@ WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm ci
 COPY . .
-ARG VITE_KAKAO_JS_KEY
-ENV VITE_KAKAO_JS_KEY=${VITE_KAKAO_JS_KEY}
-RUN npm run build
+RUN node --test tests/visitor-counter.test.mjs && npm run lint && npm run build
 
-FROM nginx:alpine
-COPY --from=builder /app/dist /usr/share/nginx/html
-EXPOSE 80
+FROM node:22-alpine AS runner
+WORKDIR /app
+ENV NODE_ENV=production
+COPY --from=builder /app/dist ./dist
+COPY --from=builder /app/server.mjs ./server.mjs
+COPY --from=builder /app/visitor-counter.mjs ./visitor-counter.mjs
+USER node
+EXPOSE 8080
+CMD ["node", "server.mjs"]

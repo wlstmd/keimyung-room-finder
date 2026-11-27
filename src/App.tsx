@@ -3,6 +3,7 @@ import KakaoMap, { type MapMarkerData } from "./components/KakaoMap";
 import ControlPanel from "./components/ControlPanel";
 import BuildingRoomList from "./components/BuildingRoomList";
 import Footer from "./components/Footer";
+import VisitorCounter from "./components/VisitorCounter";
 import { useRooms } from "./hooks/useRooms";
 import { useBuildings } from "./hooks/useBuildings";
 import type { Day } from "./types";
@@ -48,6 +49,7 @@ export default function App() {
           <h1>계명대 빈 강의실 찾기</h1>
           <p>성서/대명 캠퍼스 건물을 지도에서 골라 지금 비어있는 강의실을 확인하세요.</p>
         </div>
+        <VisitorCounter />
       </header>
 
       {roomsError ? (

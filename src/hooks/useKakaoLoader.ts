@@ -12,7 +12,8 @@ export function useKakaoLoader() {
       return;
     }
 
-    const appkey = import.meta.env.VITE_KAKAO_JS_KEY;
+    const appkey =
+      window.__APP_CONFIG__?.kakaoJsKey || import.meta.env.VITE_KAKAO_JS_KEY;
     if (!appkey) {
       setError("VITE_KAKAO_JS_KEY가 설정되지 않았어요 (.env 확인)");
       return;

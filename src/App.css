@@ -126,6 +126,7 @@
 
 .app-header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 14px;
   padding: 18px 28px;
@@ -133,6 +134,29 @@
   box-shadow: var(--shadow-sm);
   position: relative;
   z-index: 1;
+}
+
+.visitor-counter {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface-muted);
+  color: var(--text-muted);
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+.visitor-counter strong {
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+
+.visitor-counter-error {
+  color: var(--danger);
 }
 
 .app-logo {
@@ -454,6 +478,11 @@ input[type="range"] {
   }
   .app-header p {
     font-size: 12px;
+  }
+  .visitor-counter {
+    width: 100%;
+    justify-content: center;
+    margin-left: 0;
   }
   .control-panel {
     padding: 10px 14px;
